@@ -1,0 +1,1 @@
+# The Program Exit Assessment is made with the objective of showcasing the knowledge accumulated within the Computer Science Program and all our learning. Additionally, it also serves as technical portiolo for any future employers.
