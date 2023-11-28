@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+:root {
+    --AccentColor: #8f5941;
+    --FontColor: black;
+    --Secondary: #bb444d;
+    --LightColor: #679833;
+    --Bright: white;
+    --Text: 'Vollkorn';
+    --Nav: 'Merienda';
+    --Ad: 'Abel';
+    --Spice: 'Nothing You Could Do';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boasting {
+    background-color: var(--AccentColor);
+    color: var(--Bright);
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+    font-family: var(--Ad);
+    font-size: 1.2em;
+    letter-spacing: .2em;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+
+}
+
+nav ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    width: 100%
+}
+
+nav ul li {
+    margin: 20px 0;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--LightColor);
+    font-family: var(--Nav);
+    font-size: 3.5vw;
+    margin: 30px;
+
+}
+
+
+#ghost1 {
+
+    display: none;
+}
+
+#ghost2 {
+
+    display: none;
+}
+
+#ghost3 {
+
+    display: none;
+}
+
+nav img.logo {
+    align-items: center;
+    height: 300px;
+
+
+
+
+
+}
+
+
+
+footer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-top: 1.5px solid var(--AccentColor);
+
+}
+
+footer a {
+    text-decoration: none;
+    margin: 17px;
+    font-family: var(--Nav);
+    font-size: 2vw;
+    font-weight: bold;
+    color: var(--Secondary);
+}
+
+footer ul li {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+footer p {
+
+    font-size: 2vw;
+    ;
+    padding: 15px;
+}
+
+footer p a {
+
+    color: var(--FontColor);
+    font-size: 2vw;
+
+}
+
+
+@media (min-width:768px) {
+
+
+    .nav-con {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+    .nav-con ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 20px;
+
+    }
+
+    .nav-con ul li {
+        margin: 0 10px;
+        position: relative;
+    }
+
+
+    .nav-con ul li a {
+        text-decoration: none;
+        color: var(--LightColor);
+        font-family: var(--Nav);
+        cursor: pointer;
+        font-size: 1.4vw;
+        display: inline-flex;
+        margin: 0 15px;
+    }
+
+    .nav-con ul li::after {
+        content: '';
+        height: 2px;
+        width: 0;
+        background: #bb444d;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+    }
+
+    .nav-con ul li:hover::after {
+
+        width: 100%;
+
+
+    }
+
+    nav img.logo {
+        height: 300px;
+        margin: 0 20px;
+
+        flex-grow: 0;
+        flex-shrink: 0;
+
+
+    }
+
+
+
+
+    #ghost1 {
+
+        display: inline-block;
+    }
+
+    #ghost2 {
+
+        display: inline-block;
+    }
+
+    #ghost3 {
+
+        display: inline-block;
+    }
+
+    footer {
+        padding: 20px 0;
+        text-align: center;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-right: 20px;
+        height: 50px;
+    }
+
+    footer a {
+        text-decoration: none;
+        margin: 0 25px;
+        font-family: var(--Nav);
+        font-size: large;
+        font-weight: bold;
+        color: var(--Secondary);
+    }
+
+    footer p {
+
+        font-size: 1vw;
+        ;
+        padding: 15px;
+
+    }
+
+    footer p a {
+
+        color: var(--FontColor);
+        font-size: 0.5vw;
+
+    }
+
+    footer ul li {
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+}
