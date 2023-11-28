@@ -9,7 +9,7 @@ body {
 
 main {
 
-    background-image: url(/images/beanie.jpg);
+    background-image: url(images/beanie.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 20% 50%;
@@ -39,7 +39,7 @@ main {
 .menubox ul {
     list-style: inside;
     padding: 0;
-    list-style-image: url(/images/leaf2.png);
+    list-style-image: url(images/leaf2.png);
 
 }
 
@@ -55,7 +55,7 @@ main {
 .menubox ul ul {
     padding-left: 50px;
     padding-top: 10px;
-    list-style-image: url(/images/leaf2.png);
+    list-style-image: url(images/leaf2.png);
 }
 
 
