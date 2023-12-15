@@ -14,14 +14,14 @@
     <header>
 
         <div class="boasting">
-            <p>Come visit a five star rated cafe!</p>
+            <p>Come visit a five star rated café!</p>
         </div>
         <nav>
 
             <div class="nav-con">
                 <ul>
                     <li><a href="./index.html">Home</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./contact.html">Contact us</a></li>
                     <li><a href="./menu.html">Menu</a></li>
                 </ul>
                 <img src="./images/logo.png" alt="Rendezvous Cafe Logo" class="logo">
@@ -43,7 +43,8 @@
             <h2>Contact Us</h2>
             <p>We would love to hear from you! Please fill out this form and we will get in touch with you shortly.</p>
             <p class="Urgent"> Need us immediately? <span> Call (777) 777-7717!</span></p>
-            <form action="contact.html" method="get">
+
+            <form action="contact.html" id="contact" name="contact" method="get">
                 <div class="form">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name">
@@ -52,11 +53,62 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email">
                 </div>
+
+                <fieldset>
+                    <legend>What is your reason for contacting us?</legend>
+<br>
+                    <input type="radio" id="mad" name="us">
+                    <label for="mad">Customer Service</label><br>
+        <br>
+                    <input type="radio" id="beverage" name="us">
+                    <label for="beverage">Beverage Concerns</label><br>
+        <br>
+                    <input type="radio" id="ideas" name="us">
+                    <label for="ideas">New Ideas or Suggestions</label><br>
+        <br>
+                    <input type="radio" id="country" name="us">
+                    <label for="country">Food Concerns</label><br>
+<br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Which location have you visited?</legend>
+                    <br>
+                    <input type="checkbox" id="map" name="map">
+                    <label for="map">Toronto Branch</label><br>
+        <br>
+                    <input type="checkbox" id="map2" name="map">
+                    <label for="map">Ottawa Branch</label><br>
+                    <br>
+        
+                  
+        
+                  
+        
+        
+                </fieldset>
+                <fieldset>
+
+
+                    <legend>How often do you visit Rendezvous Café?</legend>
+                    <select name="frequency" id="frequency" size="1">
+                        <option value="jeanne">--</option>
+                        <option value="meh">Daily</option>
+                        <option value="sushi">Several times a week</option>
+                        <option value="what">Once a week</option>
+                        <option value="popcorn">Once a month</option>
+        
+                    </select>
+                </fieldset>
+
                 <div class="form">
                     <label for="message">Message:</label>
                     <textarea id="message" name="message"></textarea>
                 </div>
+                <div id="actions">
                 <button type="submit">Send Message</button>
+                <button type="reset" value="ClearForm">Clear</button>
+                </div>
             </form>
         </section>
     </main>
@@ -66,7 +118,7 @@
             <li><a href="./index.html">Home</a></li>
             <li><a href="./aboutus.html">About us</a></li>
             <li><a href="./menu.html">Menu</a></li>
-            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./contact.html">Contact us</a></li>
             <li><a href="./locations.html">Locations</a></li>
             <li><a href="./employment.html">Employment</a></li>
         </ul>

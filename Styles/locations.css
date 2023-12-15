@@ -1,14 +1,19 @@
 body {
     font-family: var(--Text);
     line-height: 1.6;
+    
+}
+
+.wrapper {
+    background-image: url(../images/city.jpg);
 }
 
 .location {
-    margin: 20px;
+    margin: 200px;
     padding: 20px;
-    border: 1px solid var(--AccentColor);
+    border: 1px solid var(--Secondary);
     border-radius: 5px;
- 
+ background-color: var(--Pale);
 }
 
 .location h2 {
@@ -16,16 +21,27 @@ body {
     margin-bottom: 10px;
     font-family: var(--Spice);
     font-weight:bolder;
+    text-align: center;
 }
 
 .location h3 {
 
     font-family: var(--Ad);
     font-size: 1.5em;
+    text-align: center;
+    padding-top: 20px;
 }
 .location p {
     font-family: var(--Text);
     margin-bottom: 20px;
+    text-align: center ;
+}
+.location img {
+
+    width:100%;
+    margin:auto;
+
+
 }
 
 table {
@@ -48,15 +64,39 @@ th {
 td {
     background-color: var(--Bright);
     font-family: var(--Text);
+   
 }
+
+
+
+
+
 
 @media (min-width: 768px) {
     .location {
-        margin: 10px;
+        margin: 100px;
         padding: 10px;
+
+        
     }
 
     table {
         font-size: 14px;
     }
+
+    .location img {
+        width:35%;
+        margin-right:auto;
+        margin-left: auto;
+        display: block;
+
+
+    }
+
+table {
+    width:50%;
+    margin:auto;
+    
+}
+  
 }

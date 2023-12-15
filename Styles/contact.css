@@ -28,11 +28,19 @@ span {
     background-attachment: fixed;
     background-position: center
 }
+fieldset {
+    background-color: var(--Bright);
+    width:100%;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+
 
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
 }
 
 .form {
@@ -43,6 +51,12 @@ form {
 .form label {
     display: block;
     margin-bottom: 10px;
+    font-weight: bold;
+}
+
+legend {
+
+    display:block;
     font-weight: bold;
 }
 
@@ -60,7 +74,10 @@ form {
     resize: vertical;
 }
 
-button[type="submit"] {
+#actions {
+    grid-column: 2;
+  }
+button[type="submit"], button[type="reset"] {
     background-color: var(--AccentColor);
     color: white;
     border: none;
@@ -71,7 +88,7 @@ button[type="submit"] {
     font-size: 1em;
 }
 
-button[type="submit"]:hover {
+button[type="submit"]:hover, button[type="reset"]:hover {
     background-color: var(--AccentColor) 10%;
     color: var(--Secondary)
 }
