@@ -22,7 +22,7 @@ span {
 }
 
 .background {
-    background-image: url(/images/matcha.jpg);
+    background-image: url(../images/matcha.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
