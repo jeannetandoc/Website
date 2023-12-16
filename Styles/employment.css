@@ -33,6 +33,10 @@ h1, h2 {
     margin-bottom: 15px;
 }
 
+.testimonials span {
+
+    font-weight: bolder;
+}
 .staff-member {
     display: flex;
     align-items: center;
@@ -46,6 +50,15 @@ h1, h2 {
     margin-right: 20px;
 }
 
+.appreciation {
+
+    font-family: var(--Text) ;
+    color: var(--AccentColor);
+    font-weight:bolder;
+    font-size: 2em;
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+}
 video {
     display: block;
     max-width: 100%;
