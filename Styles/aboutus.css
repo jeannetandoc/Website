@@ -48,6 +48,46 @@
     font-family: var(--Text);
 }
 
+.related-links {
+    background-color: var(--Pale);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.related-links h2 {
+    text-align: center;
+    color: var(--AccentColor);
+}
+
+.related-links p {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.related-links ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.related-links li {
+    margin-bottom: 10px;
+}
+
+.related-links a {
+    color: var(--LightColor);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.related-links a:hover {
+    text-decoration: underline;
+}
+
 @media (min-width: 768px) {
     .inside {
         grid-template-rows: 1fr;
