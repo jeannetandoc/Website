@@ -58,6 +58,20 @@ main {
     list-style-image: url(/images/leaf2.png);
 }
 
+table,th,td {
+
+    background-color: var(--Pale);
+    border:2px solid var(--LightColor);
+    text-align: center;
+ margin-top: 20px;
+
+}
+
+table {
+
+  
+    margin: 20px;
+}
 
 
 @media (min-width: 768px) {
@@ -92,5 +106,8 @@ main {
         font-size: 1em;
     }
 
+table {
 
+    margin: 0 auto;
+}
 }

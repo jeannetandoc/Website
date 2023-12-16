@@ -4,16 +4,16 @@ body {
     
 }
 
-.wrapper {
-    background-image: url(../images/city.jpg);
-}
+
 
 .location {
-    margin: 200px;
+    margin: 20px;
     padding: 20px;
     border: 1px solid var(--Secondary);
     border-radius: 5px;
  background-color: var(--Pale);
+ overflow: hidden;
+ 
 }
 
 .location h2 {
@@ -40,21 +40,24 @@ body {
 
     width:100%;
     margin:auto;
+    display:block;
 
 
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 40px;
- 
+
+    width: 100%
+    
 }
+   
+ 
+
 
  th, td {
     border: 1px solid #ddd;
     padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 th {
@@ -71,32 +74,21 @@ td {
 
 
 
-
 @media (min-width: 768px) {
-    .location {
-        margin: 100px;
-        padding: 10px;
+  
 
-        
-    }
+.location {
 
-    table {
-        font-size: 14px;
-    }
+ margin: 8% 8% 8% 8%
+   
+}
 
-    .location img {
-        width:35%;
-        margin-right:auto;
-        margin-left: auto;
-        display: block;
+.location img {
 
-
-    }
-
+    width:50%;
+}
 table {
     width:50%;
-    margin:auto;
-    
+    margin: 0 auto;
 }
-  
 }

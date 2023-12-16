@@ -1,0 +1,61 @@
+body {
+    font-family: var(--Text);
+    margin: 0;
+    padding: 0;
+    background-color: var(--Bright);
+    color: var(--FontColor);
+}
+
+main {
+    margin: 40px;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: var(--AccentColor);
+}
+
+.testimonials, .staff {
+    background-color: var(--Pale);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonials p, .staff p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.staff-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.staff-member img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+@media (min-width: 768px) {
+    .staff-member {
+        flex-direction: row;
+    }
+}
+
